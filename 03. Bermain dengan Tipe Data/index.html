@@ -21,17 +21,27 @@
         // variablenya case sensitive
 
         // Tipe data string
+        // -----------------
         var text = "Sekolah Koding ";
         var text2 = "yang baru";
 
         // Tipe data number/angka
+        // ----------------------
         var angka = 1000;
         var angka2 = 123;
 
         var angka_baru = angka + angka2;
         var text_baru  = text + text2;
 
-        document.getElementById("wrap").textContent = angka_baru;
+        // Operator matematika + - / * %
+        // -----------------------------
+        var nomor = angka + angka2;
+        nomor++; // increment // menjumlahkan dengan 1
+        nomor--; // decrement // mengurangi dengan 1
+
+        angka = angka + angka2; // penulisan singkat angka += angka2;
+
+        document.getElementById("wrap").textContent = nomor;
     </script>
 </body>
 </html>

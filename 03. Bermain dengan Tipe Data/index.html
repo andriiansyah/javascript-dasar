@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghubungkan Javascript</title>
+</head>
+<body>
+    <style>
+        div {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+
+    <div id="wrap"></div>
+
+    <script> 
+        // Deklarasi Variable
+        // ------------------
+        // variablenya case sensitive
+
+        // Tipe data string
+        var text = "Sekolah Koding ";
+        var text2 = "yang baru";
+
+        // Tipe data number/angka
+        var angka = 1000;
+        var angka2 = 123;
+
+        var angka_baru = angka + angka2;
+        var text_baru  = text + text2;
+
+        document.getElementById("wrap").textContent = angka_baru;
+    </script>
+</body>
+</html>
